@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+h1{color:black}
+body{padding: 0;
+margin:0;
+background-color: thistle;
+}
+.gallery-img{
+    display: none;
+    max-height:600px;
+}
+.img-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: lightcoral;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev{
+    margin-right: 15px;
+}
+.prev:disabled{
+    background-image: url();
+    cursor:not-allowed;
+}
+
